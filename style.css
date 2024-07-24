@@ -1,0 +1,68 @@
+/* Asegurarse de que el contenedor principal ocupe todo el ancho */
+.stApp {
+    max-width: 95% !important;
+    padding: 2rem !important;
+    background-image: url('fotos/logologin.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.block-container {
+    max-width: 100% !important;
+}
+
+.css-1d391kg {
+    max-width: 100% !important;
+    padding-left: 15    rem !important;
+    padding-right: 1rem !important;
+}
+
+.css-18e3th9 {
+    flex: 10;
+}
+
+.stMarkdown {
+    text-align: center;
+    margin-left: 1px;  /* Ajustar márgenes */
+    margin-right: 20px; /* Ajustar márgenes */
+}
+
+#sistema-de-clientes {
+    font-weight: bold;
+    text-align: center; /* Centrar el título */
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Estilo para las imágenes */
+.stImage > img {
+    border-radius: 50%;
+    width: 100px;  /* Ajustar el tamaño de la imagen */
+    height: 100px;  /* Ajustar el tamaño de la imagen */
+    object-fit: cover;
+}
+
+/* Centrar contenido en las columnas */
+.stColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ajustar el espacio entre botones */
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alinear los botones en columna */
+    gap: 0.5rem; /* Ajustar el espacio entre botones */
+}
